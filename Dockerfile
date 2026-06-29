@@ -1,4 +1,4 @@
-FROM offen/docker-volume-backup:v2.48.1
+FROM offen/docker-volume-backup:v2.48.2
 
 RUN mkdir -p /usr/local/share/ca-certificates
 COPY ext/pki/tls/*.crt /usr/local/share/ca-certificates
